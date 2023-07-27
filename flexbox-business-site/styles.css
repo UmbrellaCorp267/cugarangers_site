@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'MonsterHunter';
+    src: url(../../../../../../../Users/Umbre/AppData/Local/Microsoft/Windows/Fonts/Monster\ hunter\ type\ 2.ttf) format('truetype');
+}
+
+a -webkit-any-link {
+    cursor: pointer;
+}
+
+a {
+    color: black;
+}
+
+h2, h3, h4, p {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    font-family: 'MonsterHunter', sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+
+.header .title {
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#logo {
+    height: 75px;
+    width: auto;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#mission {
+    display: flex;
+    background-image: url('./images/mission_banner.jpg');
+    height: 300px;
+}
+
+#mission .container {
+    margin: auto;
+    background-color: #FFFFFF95;
+    width: 100%;
+   
+}
+
+h2 {
+    display: block;
+}
+
+h4 {
+    display: block;
+}
+
+#offer {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.ad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ad img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 5px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.ad span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+}
+
+#team {
+    text-align: center;
+}
+
+
+.team_pic {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+
+    border: 2px solid brown;
+}
+
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+
+}
+
+.members img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+}
+
+
+.team {
+    background-image: url('./images/team_bg.jpg');
+    padding-top: 10px;
+}
+
+.member h3, p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid brown;
+    width: 250px;
+    height: 300px;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover {
+    opacity: 1; 
+}
+
+.image-container img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.member-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0; 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); 
+    transition: opacity 0.3s ease;
+}
+
+  .image-container:hover .member-details {
+    opacity: 1; /* Show the details on hover */
+}
+
+.members .orange {
+    margin: 0 10px 0 10px;
+}
+
+h5 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
